@@ -1,0 +1,266 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+ */
+ 
+
+
+
+
+.start-section{
+  margin: 20px;
+  border-radius: 18px;
+  background-color: #FBF6E2;
+  padding: 30px;
+  display: flex;  
+  justify-content: space-between;
+}/* 
+.start-section img{
+  width: 300px;
+  height: 300px;
+} */
+.start-section h2{
+  font-family:cursive ;
+  font-size: 60px;
+}
+.start-section p{
+  font-size: 40px;
+}
+
+header{
+  background-color: #FBF6E2;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  padding-left: 50px;
+  font-size: 50px;
+ 
+}
+.navbar{
+  display: flex;
+
+}
+.icon{
+  cursor: pointer;
+  color: #FBF6E2;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  background-color:#131842;
+  width: 40px;
+  height: 40px;
+ 
+}
+.navbar a {
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a :hover{
+  color: #ECCEAE;
+}
+
+.about-section{
+  margin: 20px;
+  border-radius: 18px;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color:#131842;
+  flex-direction: column;
+  padding: 30px;
+  display: flex;  
+  justify-content: space-around;
+  line-height: 25px;
+}
+.about-section h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aboutinfo{
+  display: flex;
+}
+.about-section img{
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+.about-section p{
+  padding-right: 30px;
+}
+
+.servies-section{
+  margin: 20px;
+  border-radius: 18px;
+  display: flex;
+ background-color: #FBF6E2; 
+ flex-direction: column;
+ padding: 30px;
+
+}
+.servies-section h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+.cards img{
+  width: 100px;
+  height: 100px;
+  padding-top: 10px;
+}
+.card{
+  background-color: #131842;
+  width: 40%;
+  border-radius: 20px;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+.cardinfo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+}
+.contactus{
+  margin: 20px;
+  border-radius: 18px;
+  background-color:#131842;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+
+}
+
+.contactus h2{
+  display: flex;
+  color: white;
+ justify-content: center;
+  margin-bottom: 20px;
+}
+.contactinfo{
+  display: flex;
+}
+.cimg{
+  margin: 40px;
+  height: 200px;
+  height: 200px;
+}
+form{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+input{
+  border:none;
+  background-color:#FBF6E2;
+  
+}
+.name{
+  border-radius: 20px;
+  height: 30px;
+  padding:10Px;
+}
+.email{
+  margin-top: 10px;
+  border-radius: 20px;
+  height: 30px;
+  padding:10Px;
+}
+.massege{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  height: 200px;
+  padding:10Px;
+}
+.btn{
+  border-radius: 20px;
+  height: 30px;
+  padding:10Px;
+  margin-bottom: 10px;
+}
+.btn:hover{
+  background-color: #ECCEAE;
+  cursor:pointer;
+}
+footer{
+  height: 28px;
+  background-color: #FBF6E2;
+}
+.hello{
+  animation-name: n;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes n{
+  0%{
+      color: #131842;
+      
+  }
+  50%{
+      color:#5d7a51;
+      
+  }
+  100%{
+      color: #5a1419;
+  }
+}
+.ani{ 
+  animation-name: m;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes m{
+  0%{
+      color: #131842;
+      
+  }
+  50%{
+      color:#5d7a51;
+      
+  }
+  100%{
+      color:#FBF6E2;
+  }
+}
